@@ -23,11 +23,35 @@
     <script type="text/javascript">
         //In this code will using a callback within a callback
         //Implement the following
-        // 1. Get the button by its ID
+        // 1. Get the button by its ID 
         // 2. Assign it to a variable
+        var button = document.getElementById("submitBtn");
+        var input = getElementById("seconds")
         // 3. Add an event listener to the buttons element that when the button
+        button.addEventListener("click", function()){
+            alert("you clicked me")
+        }
+        var inputValue = inputValue
         //    is clicked, it retrieves the number of seconds from the seconds element
+        getElementsByClassName() 
         // 4. Have an if statement that checks if the input is a number. The function
+        //from mozilla example-----------------------------------------------------
+        function typeOfNaN(x) {
+  if (Number.isNaN(x)) {
+    return 'Number NaN';
+  }
+  if (isNaN(x)) {
+    return 'NaN';
+  }
+}
+//-------------------------------------------------------------------------------------
+        if(x = isNaN){
+            alert ("Input must be a number")
+        } else setTimeout(function(){
+            setTimeout(function () {
+                alert("Hello! Set timeout callback");
+                }, value + "x milliseconds have passed");
+        })
         //    isNan is a good starting point to check for this check.
         // 5. If the number is not a number, print an alert "Input must be a number"
         // 6. If the number is a number, use a setTimeout function. In the setTimeout function:

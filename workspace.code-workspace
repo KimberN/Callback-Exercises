@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../DOM-unofficial"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "JR3"
+	}
+}
